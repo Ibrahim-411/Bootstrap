@@ -1,23 +1,21 @@
-/* width */
 ::-webkit-scrollbar {
     width: 12px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-    /* background: #888; */
     background: blue;
     border-radius: 20px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    /* background: #555; */
+
     background: black;
 }
 
@@ -446,7 +444,6 @@ h1:hover {
         margin-left: 41px;
         padding: 12px 0px 54px 36px;
         margin-left: 0px;
-        /* margin-top: -223px; */
         width: 132%;
         position: relative;
         left: -64px;
@@ -603,7 +600,6 @@ p {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        /* margin-right: -15px; */
         margin-left: 0px;
         width: 98%;
         position: relative;

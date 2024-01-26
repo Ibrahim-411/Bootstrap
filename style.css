@@ -1,0 +1,625 @@
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: #888; */
+    background: blue;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /* background: #555; */
+    background: black;
+}
+
+body {
+    background-color: #292222;
+    overflow-x: hidden;
+
+
+}
+
+#imgf {
+    vertical-align: middle;
+    width: 60%;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+@media (min-width: 768px) {
+    .ps-md-3 {
+        padding-left: 16px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .pt-md-5 {
+        padding-top: 3rem !important;
+        border-radius: 50px;
+        width: 25%;
+        height: 370px;
+    }
+}
+
+@media (min-width: 768px) {
+    .px-md-5 {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+}
+
+IMG:HOVER {
+    scale: 110%;
+    transition: 1S;
+}
+
+#img:HOVER {
+    scale: none;
+}
+
+.display-5 {
+    font-size: 3rem;
+    margin-top: -33px;
+}
+
+.p-3 {
+    padding: 0rem !important;
+}
+
+#off:HOVER {
+    scale: none;
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #ddeeee00 !important;
+}
+
+h1:hover {
+    scale: 110%;
+    transition: 1s;
+}
+
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+
+}
+
+#h21,
+#p1 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    left: -85px;
+    top: 10px;
+}
+
+
+#background {
+    background-color: #bfeddd;
+    position: relative;
+    top: -58px;
+}
+
+
+#h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#h11:hover {
+    scale: 100%;
+}
+
+#h1:hover {
+    scale: 100%;
+}
+
+#h11 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row {
+    padding-left: 6rem;
+    padding-top: 20px;
+}
+
+#lightgreen {
+    background: beige;
+}
+
+#offer {
+    margin-top: 4rem;
+}
+
+#why:hover {
+    scale: 100%;
+}
+
+#imgban {
+    width: 100%;
+    height: 550px;
+    margin-top: 1rem;
+}
+
+#imgban:hover {
+    scale: 100%;
+}
+
+#medi {
+    width: 100%;
+}
+
+#cro:hover {
+    scale: 100%;
+}
+
+#po:hover {
+    scale: 100%;
+}
+
+/* add */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 310px;
+}
+
+.imgs {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-fluid {
+    transition: all .7s ease-in-out;
+
+}
+
+.imgs img:hover {
+    scale: 1.1;
+}
+
+.card {
+    width: 100%;
+
+}
+
+
+
+@media (min-width: 768px) {
+    .flex-md-nowrap {
+        flex-wrap: nowrap !important;
+    }
+}
+
+:hover {
+    border: black;
+}
+
+
+
+#ham {
+    margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+}
+
+#pro2 {
+    max-width: 251px;
+    height: 248px;
+    margin-left: -11px;
+}
+
+@media (min-width: 768px) {
+
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+        padding-left: 52px;
+    }
+
+    .carousel-item.active {
+        display: block;
+        margin-top: 143px;
+    }
+}
+
+#mb-0 {
+    margin-bottom: 0 !important;
+    width: 461px;
+}
+
+#mb-4 {
+    margin-bottom: 1.5rem !important;
+    width: 461px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+#card-body {
+    margin-left: 41px;
+    padding: 11px 26px 54px 36px;
+    margin-left: 163px;
+    margin-top: -223px;
+    width: 97%;
+
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 52.333333%;
+    }
+}
+
+@media (min-width: 768px) {
+    #md-8 {
+        flex: 0 0 auto;
+        width: 58.666667%;
+        padding-left: 52px;
+        margin-left: -42px;
+    }
+}
+
+#skin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center
+}
+
+#img {
+    height: 241px;
+}
+
+#p {
+    margin-top: 15px;
+    width: 130%;
+    color: #fff;
+    font-size: larger;
+
+}
+
+#h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+#circle {
+    scale: 100%;
+}
+
+#round {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 11%;
+}
+
+#lg-4 {
+    width: 13rem;
+}
+
+#h11 {
+    color: white;
+    font-weight: 900;
+}
+
+.card-text {
+    color: #292222;
+    font-size: 17px;
+}
+
+#skinc {
+    max-width: 440px;
+    height: 245px;
+}
+
+#animeh1 {
+    position: relative;
+    top: -5rem;
+    height: 250px;
+    position: relative;
+    animation-name: ibri;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+
+}
+
+@keyframes ibri {
+    0% {
+        top: -750px;
+        left: 0px;
+    }
+
+}
+
+@keyframes ib2 {
+    0% {
+        top: -750px;
+        left: 0px;
+    }
+
+}
+
+@keyframes ibpro {
+    0% {
+        top: -50px;
+        left: 0px;
+    }
+
+}
+
+.animepro {
+    position: relative;
+    top: 0rem;
+    animation-name: ibpro;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#panime {
+    font-size: medium;
+    font-weight: 600;
+    position: relative;
+    top: -4rem;
+    animation-name: ib2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+
+@media (max-width:800px) {
+    #animeh1 {
+        position: relative;
+        top: 6rem;
+        height: 250px;
+        position: relative;
+        animation-name: ibri;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    #panime {
+        font-size: medium;
+        font-weight: 600;
+        position: relative;
+        top: 6rem;
+        animation-name: ib2;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media (max-width:800px) {
+    #card-body {
+        margin-left: 41px;
+        padding: 12px 0px 54px 36px;
+        margin-left: 0px;
+        /* margin-top: -223px; */
+        width: 132%;
+        position: relative;
+        left: -64px;
+        top: 205px;
+    }
+
+    #skinc {
+        max-width: 299px;
+        height: 390px;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* margin-right: -15px; */
+        margin-left: 0px;
+        width: 70%;
+        position: relative;
+        left: 45px;
+        top: 7px;
+    }
+
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 95.333333%;
+    }
+}
+
+@media (max-width:450px) {
+    #row {
+        padding-left: 0rem;
+        padding-top: 20px;
+        position: relative;
+        left: 47px;
+        width: 240px;
+    }
+}
+
+.carousel img:hover {
+    scale: 100%;
+}
+
+.carousel {
+    position: relative;
+    top: -58px;
+}
+
+@media (max-width:750px) {
+    #myCarousel {
+        position: relative;
+        top: 178px;
+    }
+}
+
+@media (max-width:500px) {
+    #myCarousel {
+        position: relative;
+        top: 241px;
+        margin-bottom: 299px;
+        height: 28rem;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 15.25rem;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media (max-width:900px) {
+
+    #h21,
+    #p1 {
+        color: black;
+        font-family: sans-serif;
+        text-align: center;
+        position: relative;
+        left: -33px;
+        top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .h1,
+    h1:hover {
+        scale: 100%;
+    }
+
+    .h1,
+    h1 {
+        font-size: 70px;
+        font-weight: 900;
+    }
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#hurry img:hover {
+    scale: 1.1;
+}
+
+.round-circle {
+    border-radius: 0% !important;
+}
+
+.text-body-tertiary {
+    --bs-text-opacity: 1;
+    color: #fff;
+}
+
+#foot {
+    position: relative;
+    left: -339px;
+}
+
+@media (max-width:800px) {
+    #foot {
+        position: relative;
+        left: 23px;
+        top: 23px;
+    }
+}
+
+#navfoot {
+    position: relative;
+    top: -57px;
+    right: 31px;
+    color: white;
+}
+
+@media (max-width:800px) {
+    #navfoot {
+        position: relative;
+        top: 18px;
+        left: -43px;
+        color: white;
+    }
+}
+
+@media (max-width: 800px) {
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* margin-right: -15px; */
+        margin-left: 0px;
+        width: 98%;
+        position: relative;
+        left: 15px;
+        top: 7px;
+    }
+
+    .card-text {
+        color: #292222;
+        font-size: 17px;
+        width: 86%;
+    }
+
+    #h11 {
+        color: white;
+        font-weight: 900;
+        font-size: 24px;
+    }
+}

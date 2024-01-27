@@ -21,10 +21,12 @@
     --two-use-color: #5500cb;
 }
 
+
 body {
     background: url(https://wallpapercave.com/wp/wp5400527.jpg)no-repeat center center/cover;
     /* background-color: #292222; */
     max-width: 100%;
+    height: 100vh;
     overflow-x: hidden;
 }
 

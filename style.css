@@ -127,6 +127,7 @@ h1:hover {
     color: black;
     padding-top: 25px;
     display: flex;
+    text-align: center;
     justify-content: space-evenly;
 }
 
@@ -425,7 +426,7 @@ h1:hover {
         position: relative;
         animation-name: ibri;
         animation-duration: 2s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
     }
 
     #panime {
@@ -435,12 +436,13 @@ h1:hover {
         top: 6rem;
         animation-name: ib2;
         animation-duration: 3s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
     }
 }
 
 @media (max-width:800px) {
-    #card-body {
+
+    /* #card-body {
         margin-left: 41px;
         padding: 12px 0px 54px 36px;
         margin-left: 0px;
@@ -448,6 +450,16 @@ h1:hover {
         position: relative;
         left: -64px;
         top: 205px;
+    } */
+    #card-body {
+        margin-left: 41px;
+        padding: 12px 0px 54px 36px;
+        margin-left: 0px;
+        width: 125%;
+        height: 140px;
+        position: relative;
+        left: -58px;
+        top: 186px;
     }
 
     #skinc {
@@ -478,9 +490,8 @@ h1:hover {
     #row {
         padding-left: 0rem;
         padding-top: 20px;
-        position: relative;
-        left: 47px;
-        width: 240px;
+        text-align: center;
+
     }
 }
 
@@ -503,7 +514,7 @@ h1:hover {
 @media (max-width:500px) {
     #myCarousel {
         position: relative;
-        top: 241px;
+        top: 170px;
         margin-bottom: 299px;
         height: 28rem;
     }
@@ -528,10 +539,11 @@ h1:hover {
         font-family: sans-serif;
         text-align: center;
         position: relative;
-        left: -33px;
+        left: 1px;
         top: 10px;
     }
 }
+
 
 @media (min-width: 1200px) {
 
@@ -605,12 +617,15 @@ p {
         position: relative;
         left: 15px;
         top: 7px;
+        gap: 20px;
+        justify-content: center;
     }
 
     .card-text {
         color: #292222;
         font-size: 17px;
         width: 86%;
+        text-align: center;
     }
 
     #h11 {
@@ -618,4 +633,30 @@ p {
         font-weight: 900;
         font-size: 24px;
     }
+
+    .h6,
+    h6 {
+        font-size: 1rem;
+        position: relative;
+        left: 2rem;
+    }
+
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 60px;
+    }
+
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+    position: relative;
+
 }

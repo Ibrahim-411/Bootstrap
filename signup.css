@@ -80,7 +80,7 @@ form {
     margin-top: 30px;
 }
 
-form1 {
+.form1 {
     margin-top: 30px;
 }
 
@@ -248,6 +248,27 @@ a.google span {
     font-weight: 500;
     opacity: 0.6;
     color: #232836;
+}
+
+@media(max-width:600px) {
+    .form1 {
+        position: absolute;
+        max-width: 315px;
+        max-height: 656px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 6px;
+        background: beige;
+    }
+    .form {
+        position: absolute;
+        max-width: 315px;
+        max-height: 656px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 6px;
+        background: beige;
+    }
 }
 
 @media screen and (max-width: 400px) {

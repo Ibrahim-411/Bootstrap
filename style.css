@@ -151,6 +151,7 @@ h1:hover {
 #row {
     padding-left: 6rem;
     padding-top: 20px;
+    
 }
 
 #lightgreen {
@@ -491,6 +492,7 @@ h1:hover {
         padding-left: 0rem;
         padding-top: 20px;
         text-align: center;
+        left: 0rem;
 
     }
 }

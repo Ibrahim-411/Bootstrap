@@ -660,3 +660,10 @@ a {
     position: relative;
 
 }
+
+@media (max-width:1000px) {
+    .modal-content {
+        position: relative;
+        top: 13rem;
+    }
+}
